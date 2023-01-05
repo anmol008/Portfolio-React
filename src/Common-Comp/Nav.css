@@ -1,0 +1,24 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.nav-list{
+    display: flex;
+    gap: 3em;
+    font-size: 15px; 
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: rgb(126, 45, 45);
+}
+.menu-icon{
+    background: transparent;
+    width: 200px;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+}

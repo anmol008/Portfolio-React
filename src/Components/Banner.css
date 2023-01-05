@@ -1,0 +1,39 @@
+.container{
+ display: flex; 
+ padding: 9rem 0;
+ justify-content: center;
+ flex-wrap: wrap;
+}
+.banner-heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+.banner-name{
+    font-weight:600;
+    font-size: 6.4rem; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.banner-text{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 1.5rem;
+    margin-bottom: 3.4rem;
+    max-width: 60rem;
+    margin: 1.5rem 0; 
+    font-size: 17px;
+}
+Button{
+    max-width: 100px ;
+}
+.banner-data{
+    display: flex;
+    flex-direction: column;
+}
+picture img{
+    width: 500px; height: 300px;
+    text-align: center;
+}
+.banner-img{
+    max-width: 80%;
+}

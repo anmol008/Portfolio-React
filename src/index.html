@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // Closures in Javascript
+      function outer() {
+        let counter = 5;
+        function inner(params) {
+          counter++;
+          console.log(counter);
+        }
+        return inner;
+      }
+      let fn = outer();
+      fn();
+      fn();
+
+      const func = () => {
+        console.log("Function");
+      };
+      // func.prototype.fighCrime = ()=>{
+      //     console.log('Fighting Crime')
+      // }
+      var str = "anmol";
+      for (let index = str.length - 1; index >= 0; index--) {
+        console.log(str.charAt(index));
+      }
+      function reverseString2(str2) {
+        var newString = "";
+        for (var i = str2.length - 1; i >= 0; i--) {
+        //   newString += str2[i]; // or newString = newString + str[i];
+        newString = newString+ str2[i]
+        }
+        console.log(newString); // "olleh"
+      }
+
+      reverseString2("hello");
+    </script>
+  </head>
+
+  <body></body>
+</html>
